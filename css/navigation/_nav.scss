@@ -26,19 +26,22 @@ nav {
     ul {
       position: absolute;
       display: none;
-      top: 150%;
+      top: 125%;
       z-index: 2;
     }
 
     ul li {
       display: block;
-      background-color: #0ff;
+      background-color: #000;
       color: #000;
-      border: 1px solid #0ff;
+      border: 1px solid #222;
+      position: relative;
+      left: -25%;
+      padding: 4px;
     }
 
     ul li a:hover {
-      color: #000;
+      color: #0ff;
       font-weight: bold;
     }
   }
@@ -66,27 +69,30 @@ nav {
     display: inline-block;
     color: #0ff;
     font-family: Syncopate;
+    position: relative;
+    top: -8px;
+    right: 61px;
   }
 
   .tanklid1 { 
-    width: 700px;
+    width: 80%;
     height: 50px;
     position: absolute;
     left: 50%;
     top: -40%;
-    margin-left: -350px;
+    margin-left: -40%;
     background-color: #000;
     border-radius: 15px;
     z-index: 0;
   }
   .tanklid2 {     
-    width: 1600px;
+    width: 90%;
     height: 20px;
     position: absolute;
     left: 50%;
     top: -10%;
-    margin-left: -800px;
-    background-color: #000;
+    margin-left: -45%;
+    background-color: #001;
     border-radius: 20px;
     z-index: 0;
   }

@@ -1,15 +1,17 @@
 .main-wrapper {
 	padding: 0 10%;		
-  	background: linear-gradient(#0ff, #00f);
-  	height: 100%;
-  	position: relative;
+  background: linear-gradient(#0ff, #1e5fa7);
+  position: relative;
 
-  	h2 {
-  		margin: 0;
-  		padding: 10px 0 0;
-  	}
+  h2 {      
+    font-family: Syncopate;
+    font-size: 30px;
+  	margin: 0;
+  	padding: 20px 0 10px;
+  }
 
-  	ul {
-  		margin: 0;
-  	}
+  p,
+  ul {
+    margin: 0;
+  }
 }
